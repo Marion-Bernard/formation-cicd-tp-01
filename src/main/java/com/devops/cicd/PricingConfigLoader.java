@@ -1,5 +1,6 @@
 package com.devops.cicd;
 
+import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
@@ -23,7 +24,7 @@ public class PricingConfigLoader {
 
             return new PricingConfig(vatRate, freeShippingThreshold);
 
-        } catch (Exception e) {
+        } catch (IOException e) {
             throw new RuntimeException("Erreur lors du chargement de la configuration", e);
         }
     }

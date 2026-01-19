@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.devops.cicd.PricingIntegrationTest" time="0.113" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.devops.cicd.PricingIntegrationTest" time="0.198" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/marion/cicd/TP/target/surefire/surefirebooter-20260119141604932_3.jar /home/marion/cicd/TP/target/surefire 2026-01-19T14-16-04_787-jvmRun1 surefire-20260119141604932_1tmp surefire_0-20260119141604932_2tmp"/>
+    <property name="sun.java.command" value="/home/marion/cicd/TP/target/surefire/surefirebooter-20260119154455781_3.jar /home/marion/cicd/TP/target/surefire 2026-01-19T15-44-55_540-jvmRun1 surefire-20260119154455781_1tmp surefire_0-20260119154455781_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/marion/cicd/TP/target/test-classes:/home/marion/cicd/TP/target/classes:/home/marion/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.1/junit-jupiter-5.10.1.jar:/home/marion/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/home/marion/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/marion/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/home/marion/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/marion/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.1/junit-jupiter-params-5.10.1.jar:/home/marion/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.1/junit-jupiter-engine-5.10.1.jar:/home/marion/.m2/repository/org/junit/platform/junit-platform-engine/1.10.1/junit-platform-engine-1.10.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/marion/cicd/TP/target/surefire/surefirebooter-20260119141604932_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/marion/cicd/TP/target/surefire/surefirebooter-20260119154455781_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.17+10-Ubuntu-122.04"/>
     <property name="user.name" value="marion"/>
@@ -52,5 +52,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="fullPricingFlow_withRealConfigFile" classname="com.devops.cicd.PricingIntegrationTest" time="0.066"/>
+  <testcase name="fullPricingFlow_withRealConfigFile" classname="com.devops.cicd.PricingIntegrationTest" time="0.093"/>
 </testsuite>
